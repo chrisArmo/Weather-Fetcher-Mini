@@ -1,0 +1,38 @@
+/* Base CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: 'Prompt', sans-serif;
+}
+
+/* Main Container */
+
+.main-container {
+  min-height: calc(100vh - 203px);
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+/* Navbar & Footer */
+
+.navbar {
+  border-bottom: 4px solid #e2af05;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Title */
+
+.title {
+  font-size: 2.7rem;
+}
+
+/* Footer */
+
+.footer {
+  border-top: 4px solid #e2af05;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+{{> head stylePaths=(getStylePathsArray "/styles/about.css") }}
+
+<figure class="user-display">
+  <img 
+    src="/img/seattle-bev.jpg" 
+    alt="Illustration of {{ name }} holding a beer with a Seattle shoreline in the background" 
+    title="{{ name }} and his beer in Seattle">
+
+  <figcaption class="name">
+    {{ name }}
+  </figcaption>
+</figure>
+
+{{> foot }}

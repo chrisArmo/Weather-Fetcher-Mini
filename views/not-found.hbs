@@ -1,0 +1,9 @@
+{{>head stylePaths=(getStylePathsArray "/styles/not-found.css") }}
+
+<p class="error">Unsupported path: <span class="path">{{ path }}</span></p>
+
+{{#if message }}
+<h2 class="text-danger">{{ message }}</h2>
+{{/if}}
+
+{{>foot }}
